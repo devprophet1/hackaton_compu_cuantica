@@ -1,0 +1,1451 @@
+[
+  {
+    "seed": 0,
+    "m": 3,
+    "subproblems": 30,
+    "C_inicial": 514,
+    "C_tras_subproblemas": 390,
+    "gap_tras_subproblemas": 14.71,
+    "C_final_tras_swaps": 372,
+    "gap_final": 9.41,
+    "aceptados": 6,
+    "reparados": 6,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 1,
+    "pct_factibles_medio": 11.35,
+    "pct_top_factible": 80.0,
+    "tiempo_subproblemas_s": 162.47,
+    "tiempo_pulido_s": 0.003,
+    "perm_final": [
+      5,
+      2,
+      1,
+      9,
+      7,
+      6,
+      4,
+      8,
+      0,
+      3
+    ],
+    "log": [
+      {
+        "S": [
+          0,
+          7,
+          8
+        ],
+        "cost_proposal": 494,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 494,
+        "feasible_fraction": 0.10400390625,
+        "top_feasible": true,
+        "best_feasible_cost": 494
+      },
+      {
+        "S": [
+          1,
+          4,
+          9
+        ],
+        "cost_proposal": 486,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 486,
+        "feasible_fraction": 0.13037109375,
+        "top_feasible": true,
+        "best_feasible_cost": 466
+      },
+      {
+        "S": [
+          2,
+          3,
+          4
+        ],
+        "cost_proposal": 486,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 486,
+        "feasible_fraction": 0.12255859375,
+        "top_feasible": true,
+        "best_feasible_cost": 478
+      },
+      {
+        "S": [
+          0,
+          7,
+          9
+        ],
+        "cost_proposal": 532,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 486,
+        "feasible_fraction": 0.10400390625,
+        "top_feasible": true,
+        "best_feasible_cost": 486
+      },
+      {
+        "S": [
+          0,
+          5,
+          9
+        ],
+        "cost_proposal": 544,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 486,
+        "feasible_fraction": 0.11962890625,
+        "top_feasible": true,
+        "best_feasible_cost": 486
+      },
+      {
+        "S": [
+          4,
+          6,
+          8
+        ],
+        "cost_proposal": 486,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1188",
+        "cost_after": 486,
+        "feasible_fraction": 0.11376953125,
+        "top_feasible": false,
+        "best_feasible_cost": 486
+      },
+      {
+        "S": [
+          2,
+          7,
+          9
+        ],
+        "cost_proposal": 524,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 486,
+        "feasible_fraction": 0.10595703125,
+        "top_feasible": true,
+        "best_feasible_cost": 464
+      },
+      {
+        "S": [
+          2,
+          5,
+          9
+        ],
+        "cost_proposal": 464,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 464,
+        "feasible_fraction": 0.1171875,
+        "top_feasible": true,
+        "best_feasible_cost": 464
+      },
+      {
+        "S": [
+          2,
+          4,
+          6
+        ],
+        "cost_proposal": 488,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 464,
+        "feasible_fraction": 0.09619140625,
+        "top_feasible": true,
+        "best_feasible_cost": 464
+      },
+      {
+        "S": [
+          2,
+          4,
+          9
+        ],
+        "cost_proposal": 464,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=852",
+        "cost_after": 464,
+        "feasible_fraction": 0.10791015625,
+        "top_feasible": false,
+        "best_feasible_cost": 464
+      },
+      {
+        "S": [
+          3,
+          5,
+          6
+        ],
+        "cost_proposal": 414,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 414,
+        "feasible_fraction": 0.1123046875,
+        "top_feasible": true,
+        "best_feasible_cost": 414
+      },
+      {
+        "S": [
+          1,
+          2,
+          4
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 414,
+        "feasible_fraction": 0.123046875,
+        "top_feasible": true,
+        "best_feasible_cost": 410
+      },
+      {
+        "S": [
+          2,
+          4,
+          7
+        ],
+        "cost_proposal": 500,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=652",
+        "cost_after": 414,
+        "feasible_fraction": 0.1123046875,
+        "top_feasible": false,
+        "best_feasible_cost": 414
+      },
+      {
+        "S": [
+          0,
+          1,
+          3
+        ],
+        "cost_proposal": 502,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 414,
+        "feasible_fraction": 0.09716796875,
+        "top_feasible": true,
+        "best_feasible_cost": 414
+      },
+      {
+        "S": [
+          0,
+          2,
+          8
+        ],
+        "cost_proposal": 414,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=840",
+        "cost_after": 414,
+        "feasible_fraction": 0.12353515625,
+        "top_feasible": false,
+        "best_feasible_cost": 394
+      },
+      {
+        "S": [
+          2,
+          6,
+          9
+        ],
+        "cost_proposal": 468,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 414,
+        "feasible_fraction": 0.115234375,
+        "top_feasible": true,
+        "best_feasible_cost": 414
+      },
+      {
+        "S": [
+          0,
+          2,
+          6
+        ],
+        "cost_proposal": 396,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 396,
+        "feasible_fraction": 0.10498046875,
+        "top_feasible": true,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          1,
+          3,
+          4
+        ],
+        "cost_proposal": 492,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 396,
+        "feasible_fraction": 0.11474609375,
+        "top_feasible": true,
+        "best_feasible_cost": 392
+      },
+      {
+        "S": [
+          0,
+          3,
+          5
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1138",
+        "cost_after": 396,
+        "feasible_fraction": 0.10498046875,
+        "top_feasible": false,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          0,
+          1,
+          7
+        ],
+        "cost_proposal": 448,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 396,
+        "feasible_fraction": 0.11865234375,
+        "top_feasible": true,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 456,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 396,
+        "feasible_fraction": 0.11572265625,
+        "top_feasible": true,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          1,
+          5,
+          6
+        ],
+        "cost_proposal": 472,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 396,
+        "feasible_fraction": 0.1142578125,
+        "top_feasible": true,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          4,
+          6,
+          9
+        ],
+        "cost_proposal": 514,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 396,
+        "feasible_fraction": 0.11474609375,
+        "top_feasible": true,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          4,
+          7,
+          8
+        ],
+        "cost_proposal": 502,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=656",
+        "cost_after": 396,
+        "feasible_fraction": 0.12109375,
+        "top_feasible": false,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 500,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 396,
+        "feasible_fraction": 0.1103515625,
+        "top_feasible": true,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          1,
+          2,
+          6
+        ],
+        "cost_proposal": 428,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 396,
+        "feasible_fraction": 0.11669921875,
+        "top_feasible": true,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          1,
+          2,
+          3
+        ],
+        "cost_proposal": 464,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 396,
+        "feasible_fraction": 0.11474609375,
+        "top_feasible": true,
+        "best_feasible_cost": 396
+      },
+      {
+        "S": [
+          3,
+          4,
+          5
+        ],
+        "cost_proposal": 390,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 390,
+        "feasible_fraction": 0.10791015625,
+        "top_feasible": true,
+        "best_feasible_cost": 390
+      },
+      {
+        "S": [
+          1,
+          4,
+          6
+        ],
+        "cost_proposal": 514,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 390,
+        "feasible_fraction": 0.12353515625,
+        "top_feasible": true,
+        "best_feasible_cost": 390
+      },
+      {
+        "S": [
+          2,
+          5,
+          6
+        ],
+        "cost_proposal": 494,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 390,
+        "feasible_fraction": 0.11669921875,
+        "top_feasible": true,
+        "best_feasible_cost": 390
+      }
+    ],
+    "metodo": "hibrido_qaoa_top"
+  },
+  {
+    "seed": 1,
+    "m": 3,
+    "subproblems": 30,
+    "C_inicial": 430,
+    "C_tras_subproblemas": 422,
+    "gap_tras_subproblemas": 24.12,
+    "C_final_tras_swaps": 376,
+    "gap_final": 10.59,
+    "aceptados": 1,
+    "reparados": 7,
+    "reparados_aceptados": 1,
+    "swaps_pulido": 3,
+    "pct_factibles_medio": 11.44,
+    "pct_top_factible": 76.7,
+    "tiempo_subproblemas_s": 162.01,
+    "tiempo_pulido_s": 0.006,
+    "perm_final": [
+      4,
+      2,
+      7,
+      8,
+      0,
+      1,
+      5,
+      9,
+      6,
+      3
+    ],
+    "log": [
+      {
+        "S": [
+          3,
+          7,
+          8
+        ],
+        "cost_proposal": 450,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1074",
+        "cost_after": 430,
+        "feasible_fraction": 0.1025390625,
+        "top_feasible": false,
+        "best_feasible_cost": 430
+      },
+      {
+        "S": [
+          1,
+          3,
+          4
+        ],
+        "cost_proposal": 422,
+        "accepted": true,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=592",
+        "cost_after": 422,
+        "feasible_fraction": 0.119140625,
+        "top_feasible": false,
+        "best_feasible_cost": 418
+      },
+      {
+        "S": [
+          3,
+          6,
+          7
+        ],
+        "cost_proposal": 444,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.10986328125,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          0,
+          4,
+          8
+        ],
+        "cost_proposal": 434,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.11474609375,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          4,
+          6,
+          7
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1198",
+        "cost_after": 422,
+        "feasible_fraction": 0.11181640625,
+        "top_feasible": false,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          2,
+          3,
+          5
+        ],
+        "cost_proposal": 486,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.12060546875,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          2,
+          6,
+          8
+        ],
+        "cost_proposal": 438,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.10986328125,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          2,
+          4,
+          5
+        ],
+        "cost_proposal": 438,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.1103515625,
+        "top_feasible": true,
+        "best_feasible_cost": 420
+      },
+      {
+        "S": [
+          0,
+          1,
+          8
+        ],
+        "cost_proposal": 474,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.1005859375,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          0,
+          3,
+          9
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1314",
+        "cost_after": 422,
+        "feasible_fraction": 0.11767578125,
+        "top_feasible": false,
+        "best_feasible_cost": 410
+      },
+      {
+        "S": [
+          1,
+          8,
+          9
+        ],
+        "cost_proposal": 438,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.115234375,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 486,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.10693359375,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          1,
+          6,
+          8
+        ],
+        "cost_proposal": 454,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.1259765625,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          2,
+          6,
+          7
+        ],
+        "cost_proposal": 526,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.1171875,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          1,
+          3,
+          6
+        ],
+        "cost_proposal": 430,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=614",
+        "cost_after": 422,
+        "feasible_fraction": 0.12451171875,
+        "top_feasible": false,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          2,
+          8,
+          9
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.11083984375,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          0,
+          5,
+          7
+        ],
+        "cost_proposal": 494,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.1171875,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          3,
+          6,
+          8
+        ],
+        "cost_proposal": 436,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.1044921875,
+        "top_feasible": true,
+        "best_feasible_cost": 416
+      },
+      {
+        "S": [
+          0,
+          1,
+          9
+        ],
+        "cost_proposal": 474,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.1103515625,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          0,
+          4,
+          6
+        ],
+        "cost_proposal": 486,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.12451171875,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          0,
+          1,
+          7
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1128",
+        "cost_after": 422,
+        "feasible_fraction": 0.123046875,
+        "top_feasible": false,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          0,
+          7,
+          9
+        ],
+        "cost_proposal": 440,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.12109375,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          1,
+          3,
+          5
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=754",
+        "cost_after": 422,
+        "feasible_fraction": 0.1025390625,
+        "top_feasible": false,
+        "best_feasible_cost": 410
+      },
+      {
+        "S": [
+          0,
+          8,
+          9
+        ],
+        "cost_proposal": 438,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.10400390625,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          0,
+          3,
+          8
+        ],
+        "cost_proposal": 430,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.1044921875,
+        "top_feasible": true,
+        "best_feasible_cost": 410
+      },
+      {
+        "S": [
+          0,
+          2,
+          3
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.11865234375,
+        "top_feasible": true,
+        "best_feasible_cost": 410
+      },
+      {
+        "S": [
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.12548828125,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          0,
+          2,
+          8
+        ],
+        "cost_proposal": 482,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.12451171875,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          1,
+          3,
+          8
+        ],
+        "cost_proposal": 426,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.11669921875,
+        "top_feasible": true,
+        "best_feasible_cost": 422
+      },
+      {
+        "S": [
+          0,
+          3,
+          6
+        ],
+        "cost_proposal": 430,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 422,
+        "feasible_fraction": 0.1181640625,
+        "top_feasible": true,
+        "best_feasible_cost": 410
+      }
+    ],
+    "metodo": "hibrido_qaoa_top"
+  },
+  {
+    "seed": 2,
+    "m": 3,
+    "subproblems": 30,
+    "C_inicial": 556,
+    "C_tras_subproblemas": 424,
+    "gap_tras_subproblemas": 24.71,
+    "C_final_tras_swaps": 376,
+    "gap_final": 10.59,
+    "aceptados": 5,
+    "reparados": 7,
+    "reparados_aceptados": 1,
+    "swaps_pulido": 3,
+    "pct_factibles_medio": 11.34,
+    "pct_top_factible": 76.7,
+    "tiempo_subproblemas_s": 151.91,
+    "tiempo_pulido_s": 0.005,
+    "perm_final": [
+      4,
+      2,
+      7,
+      8,
+      0,
+      1,
+      5,
+      9,
+      6,
+      3
+    ],
+    "log": [
+      {
+        "S": [
+          1,
+          4,
+          5
+        ],
+        "cost_proposal": 568,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 556,
+        "feasible_fraction": 0.1083984375,
+        "top_feasible": true,
+        "best_feasible_cost": 556
+      },
+      {
+        "S": [
+          1,
+          5,
+          8
+        ],
+        "cost_proposal": 556,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 556,
+        "feasible_fraction": 0.1181640625,
+        "top_feasible": true,
+        "best_feasible_cost": 556
+      },
+      {
+        "S": [
+          3,
+          7,
+          8
+        ],
+        "cost_proposal": 500,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 500,
+        "feasible_fraction": 0.1171875,
+        "top_feasible": true,
+        "best_feasible_cost": 488
+      },
+      {
+        "S": [
+          4,
+          5,
+          9
+        ],
+        "cost_proposal": 518,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 500,
+        "feasible_fraction": 0.11328125,
+        "top_feasible": true,
+        "best_feasible_cost": 500
+      },
+      {
+        "S": [
+          0,
+          5,
+          6
+        ],
+        "cost_proposal": 488,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 488,
+        "feasible_fraction": 0.1142578125,
+        "top_feasible": true,
+        "best_feasible_cost": 482
+      },
+      {
+        "S": [
+          2,
+          3,
+          6
+        ],
+        "cost_proposal": 488,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 488,
+        "feasible_fraction": 0.103515625,
+        "top_feasible": true,
+        "best_feasible_cost": 484
+      },
+      {
+        "S": [
+          0,
+          1,
+          6
+        ],
+        "cost_proposal": 488,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1062",
+        "cost_after": 488,
+        "feasible_fraction": 0.11376953125,
+        "top_feasible": false,
+        "best_feasible_cost": 444
+      },
+      {
+        "S": [
+          4,
+          5,
+          6
+        ],
+        "cost_proposal": 538,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 488,
+        "feasible_fraction": 0.103515625,
+        "top_feasible": true,
+        "best_feasible_cost": 456
+      },
+      {
+        "S": [
+          7,
+          8,
+          9
+        ],
+        "cost_proposal": 524,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 488,
+        "feasible_fraction": 0.12744140625,
+        "top_feasible": true,
+        "best_feasible_cost": 488
+      },
+      {
+        "S": [
+          1,
+          4,
+          7
+        ],
+        "cost_proposal": 464,
+        "accepted": true,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=658",
+        "cost_after": 464,
+        "feasible_fraction": 0.10009765625,
+        "top_feasible": false,
+        "best_feasible_cost": 456
+      },
+      {
+        "S": [
+          0,
+          2,
+          9
+        ],
+        "cost_proposal": 494,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 464,
+        "feasible_fraction": 0.1123046875,
+        "top_feasible": true,
+        "best_feasible_cost": 464
+      },
+      {
+        "S": [
+          1,
+          3,
+          9
+        ],
+        "cost_proposal": 464,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1132",
+        "cost_after": 464,
+        "feasible_fraction": 0.12451171875,
+        "top_feasible": false,
+        "best_feasible_cost": 464
+      },
+      {
+        "S": [
+          1,
+          2,
+          9
+        ],
+        "cost_proposal": 464,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 464,
+        "feasible_fraction": 0.125,
+        "top_feasible": true,
+        "best_feasible_cost": 456
+      },
+      {
+        "S": [
+          3,
+          5,
+          9
+        ],
+        "cost_proposal": 440,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 440,
+        "feasible_fraction": 0.109375,
+        "top_feasible": true,
+        "best_feasible_cost": 440
+      },
+      {
+        "S": [
+          1,
+          3,
+          6
+        ],
+        "cost_proposal": 506,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=680",
+        "cost_after": 440,
+        "feasible_fraction": 0.1103515625,
+        "top_feasible": false,
+        "best_feasible_cost": 398
+      },
+      {
+        "S": [
+          2,
+          7,
+          9
+        ],
+        "cost_proposal": 456,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 440,
+        "feasible_fraction": 0.107421875,
+        "top_feasible": true,
+        "best_feasible_cost": 440
+      },
+      {
+        "S": [
+          5,
+          7,
+          8
+        ],
+        "cost_proposal": 472,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=622",
+        "cost_after": 440,
+        "feasible_fraction": 0.1201171875,
+        "top_feasible": false,
+        "best_feasible_cost": 440
+      },
+      {
+        "S": [
+          2,
+          7,
+          8
+        ],
+        "cost_proposal": 506,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 440,
+        "feasible_fraction": 0.11669921875,
+        "top_feasible": true,
+        "best_feasible_cost": 440
+      },
+      {
+        "S": [
+          1,
+          2,
+          7
+        ],
+        "cost_proposal": 424,
+        "accepted": true,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.11865234375,
+        "top_feasible": true,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          0,
+          1,
+          9
+        ],
+        "cost_proposal": 424,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1212",
+        "cost_after": 424,
+        "feasible_fraction": 0.1162109375,
+        "top_feasible": false,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          1,
+          4,
+          8
+        ],
+        "cost_proposal": 432,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.12451171875,
+        "top_feasible": true,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          3,
+          7,
+          9
+        ],
+        "cost_proposal": 510,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.10595703125,
+        "top_feasible": true,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          0,
+          3,
+          6
+        ],
+        "cost_proposal": 424,
+        "accepted": false,
+        "repaired": true,
+        "before_repair": "no factible, E_qubo=1134",
+        "cost_after": 424,
+        "feasible_fraction": 0.109375,
+        "top_feasible": false,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          2,
+          3,
+          9
+        ],
+        "cost_proposal": 488,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.1162109375,
+        "top_feasible": true,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          2,
+          5,
+          7
+        ],
+        "cost_proposal": 488,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.111328125,
+        "top_feasible": true,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          0,
+          5,
+          7
+        ],
+        "cost_proposal": 424,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.10400390625,
+        "top_feasible": true,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          1,
+          3,
+          8
+        ],
+        "cost_proposal": 520,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.111328125,
+        "top_feasible": true,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          3,
+          5,
+          8
+        ],
+        "cost_proposal": 498,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.123046875,
+        "top_feasible": true,
+        "best_feasible_cost": 424
+      },
+      {
+        "S": [
+          0,
+          2,
+          5
+        ],
+        "cost_proposal": 486,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.10498046875,
+        "top_feasible": true,
+        "best_feasible_cost": 412
+      },
+      {
+        "S": [
+          6,
+          7,
+          8
+        ],
+        "cost_proposal": 424,
+        "accepted": false,
+        "repaired": false,
+        "before_repair": null,
+        "cost_after": 424,
+        "feasible_fraction": 0.1123046875,
+        "top_feasible": true,
+        "best_feasible_cost": 424
+      }
+    ],
+    "metodo": "hibrido_qaoa_top"
+  }
+]

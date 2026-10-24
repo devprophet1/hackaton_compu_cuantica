@@ -1,0 +1,11 @@
+metodo,seed,iteraciones,C_inicial,C_primer_descenso,C_final,gap_final,iter_mejor,tiempo_s
+ils_swaps,0,300,514,362,340,0.0,81,1.21
+ils_swaps,1,300,430,372,340,0.0,153,1.26
+ils_swaps,2,300,556,370,340,0.0,145,1.26
+ils_swaps,3,300,488,380,340,0.0,80,1.07
+ils_swaps,4,300,482,388,340,0.0,1,1.08
+ils_swaps,5,300,534,410,340,0.0,7,1.23
+ils_swaps,6,300,430,378,340,0.0,81,1.11
+ils_swaps,7,300,536,340,340,0.0,0,1.17
+ils_swaps,8,300,494,372,340,0.0,18,1.27
+ils_swaps,9,300,550,378,340,0.0,141,1.25

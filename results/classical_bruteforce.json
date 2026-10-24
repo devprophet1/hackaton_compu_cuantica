@@ -1,0 +1,52 @@
+[
+  {
+    "N": 3,
+    "method": "brute_force_itertools",
+    "perm": [
+      0,
+      1,
+      2
+    ],
+    "cost": 24,
+    "n_optimal_perms": 2,
+    "n_evaluated": 6,
+    "time_s": 0.0,
+    "expected": 24
+  },
+  {
+    "N": 4,
+    "method": "brute_force_itertools",
+    "perm": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "cost": 32,
+    "n_optimal_perms": 2,
+    "n_evaluated": 24,
+    "time_s": 0.0,
+    "expected": 32
+  },
+  {
+    "N": 10,
+    "method": "brute_force_itertools",
+    "perm": [
+      2,
+      6,
+      3,
+      0,
+      8,
+      4,
+      5,
+      1,
+      7,
+      9
+    ],
+    "cost": 340,
+    "n_optimal_perms": 1,
+    "n_evaluated": 3628800,
+    "time_s": 7.0926,
+    "expected": 340
+  }
+]

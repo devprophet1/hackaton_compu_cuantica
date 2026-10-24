@@ -1,0 +1,24 @@
+| N | metodo | lambda | p | muestras | pct_factibles | pct_optimas | mejor_costo_factible | gap_pct | E_qubo_min | E_qubo_media | tiempo_s | nota |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 3 | clasico_fuerza_bruta |  |  | 6 | 100.0 | 33.33 | 24 | 0.0 |  |  | 0.0 | exacto, enumera N! permutaciones |
+| 3 | aleatorio_bits | 8.0 |  | 2048 | 1.17 | 0.29 | 24 | 0.0 | 20.0 | 87.6 | 0.234 | teórico: 1.17% fact., 0.391% ópt. |
+| 3 | qiskit_qaoa | 8.0 | 1 | 2048 | 0.49 | 0.2 | 24 | 0.0 | 20.0 | 47.6 | 1.743 | 0.25*Delta; mínimo QUBO NO factible |
+| 3 | qiskit_qaoa | 8.0 | 2 | 2048 | 3.17 | 1.32 | 24 | 0.0 | 20.0 | 32.0 | 9.284 | 0.25*Delta; mínimo QUBO NO factible |
+| 3 | aleatorio_bits | 32.0 |  | 2048 | 0.83 | 0.2 | 24 | 0.0 | 24.0 | 235.1 | 0.601 | teórico: 1.17% fact., 0.391% ópt. |
+| 3 | qiskit_qaoa | 32.0 | 1 | 2048 | 9.03 | 3.47 | 24 | 0.0 | 24.0 | 173.4 | 1.741 | 1.0*Delta; mínimo QUBO factible |
+| 3 | qiskit_qaoa | 32.0 | 2 | 2048 | 21.44 | 7.62 | 24 | 0.0 | 24.0 | 113.4 | 8.308 | 1.0*Delta; mínimo QUBO factible |
+| 3 | aleatorio_bits | 96.0 |  | 2048 | 1.07 | 0.29 | 24 | 0.0 | 24.0 | 615.1 | 0.545 | teórico: 1.17% fact., 0.391% ópt. |
+| 3 | qiskit_qaoa | 96.0 | 1 | 2048 | 21.0 | 6.54 | 24 | 0.0 | 24.0 | 241.6 | 1.828 | 3.0*Delta; mínimo QUBO factible |
+| 3 | qiskit_qaoa | 96.0 | 2 | 2048 | 25.34 | 7.91 | 24 | 0.0 | 24.0 | 214.4 | 6.662 | 3.0*Delta; mínimo QUBO factible |
+| 3 | aleatorio_perm |  |  | 2048 | 100.0 | 34.13 | 24 | 0.0 | 24.0 | 26.7 | 0.047 | búsqueda aleatoria clásica; E_qubo = costo (sin penalización) |
+| 4 | clasico_fuerza_bruta |  |  | 24 | 100.0 | 8.33 | 32 | 0.0 |  |  | 0.0 | exacto, enumera N! permutaciones |
+| 4 | aleatorio_bits | 16.5 |  | 2048 | 0.1 | 0.0 | 52 | 62.5 | 39.0 | 408.0 | 2.0 | teórico: 0.0366% fact., 0.00305% ópt. |
+| 4 | qiskit_qaoa | 16.5 | 1 | 2048 | 0.39 | 0.1 | 32 | 0.0 | 32.0 | 124.9 | 7.461 | 0.25*Delta; mínimo QUBO factible |
+| 4 | qiskit_qaoa | 16.5 | 2 | 2048 | 2.25 | 0.39 | 32 | 0.0 | 32.0 | 83.1 | 38.287 | 0.25*Delta; mínimo QUBO factible |
+| 4 | aleatorio_bits | 66.0 |  | 2048 | 0.0 | 0.0 |  |  | 138.0 | 1214.5 | 1.838 | teórico: 0.0366% fact., 0.00305% ópt. |
+| 4 | qiskit_qaoa | 66.0 | 1 | 2048 | 3.08 | 0.24 | 32 | 0.0 | 32.0 | 461.1 | 7.652 | 1.0*Delta; mínimo QUBO factible |
+| 4 | qiskit_qaoa | 66.0 | 2 | 2048 | 5.03 | 0.34 | 32 | 0.0 | 32.0 | 427.3 | 25.387 | 1.0*Delta; mínimo QUBO factible |
+| 4 | aleatorio_bits | 198.0 |  | 2048 | 0.0 | 0.0 |  |  | 402.0 | 3283.6 | 1.879 | teórico: 0.0366% fact., 0.00305% ópt. |
+| 4 | qiskit_qaoa | 198.0 | 1 | 2048 | 2.93 | 0.29 | 32 | 0.0 | 32.0 | 766.5 | 8.648 | 3.0*Delta; mínimo QUBO factible |
+| 4 | qiskit_qaoa | 198.0 | 2 | 2048 | 3.37 | 0.2 | 32 | 0.0 | 32.0 | 762.4 | 30.336 | 3.0*Delta; mínimo QUBO factible |
+| 4 | aleatorio_perm |  |  | 2048 | 100.0 | 8.4 | 32 | 0.0 | 32.0 | 46.5 | 0.083 | búsqueda aleatoria clásica; E_qubo = costo (sin penalización) |

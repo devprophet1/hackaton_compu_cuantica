@@ -1,0 +1,4145 @@
+[
+  {
+    "metodo": "clasico_swaps",
+    "seed": 0,
+    "m": "",
+    "subproblems": "",
+    "C_inicial": 514,
+    "C_tras_subproblemas": "",
+    "gap_tras_subproblemas": "",
+    "C_final_tras_swaps": 362,
+    "gap_final": 6.47,
+    "tiempo_subproblemas_s": "",
+    "tiempo_pulido_s": 0.002
+  },
+  {
+    "seed": 0,
+    "m": 3,
+    "subproblems": 30,
+    "C_inicial": 514,
+    "C_tras_subproblemas": 366,
+    "gap_tras_subproblemas": 7.65,
+    "C_final_tras_swaps": 366,
+    "gap_final": 7.65,
+    "aceptados": 7,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": null,
+    "tiempo_subproblemas_s": 0.0,
+    "tiempo_pulido_s": 0.0,
+    "perm_final": [
+      4,
+      0,
+      9,
+      6,
+      7,
+      3,
+      1,
+      5,
+      8,
+      2
+    ],
+    "log": [
+      {
+        "S": [
+          0,
+          7,
+          8
+        ],
+        "cost_proposal": 494,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 494,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          4,
+          9
+        ],
+        "cost_proposal": 466,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 466,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          3,
+          4
+        ],
+        "cost_proposal": 446,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          7,
+          9
+        ],
+        "cost_proposal": 446,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          5,
+          9
+        ],
+        "cost_proposal": 446,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          6,
+          8
+        ],
+        "cost_proposal": 446,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          7,
+          9
+        ],
+        "cost_proposal": 446,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          5,
+          9
+        ],
+        "cost_proposal": 422,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          4,
+          6
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          4,
+          9
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          5,
+          6
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          4
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          4,
+          7
+        ],
+        "cost_proposal": 398,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          3
+        ],
+        "cost_proposal": 398,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          8
+        ],
+        "cost_proposal": 378,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          6,
+          9
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          6
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          4
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          3,
+          5
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          7
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          5,
+          6
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          6,
+          9
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          7,
+          8
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          6
+        ],
+        "cost_proposal": 366,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          3
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          4,
+          5
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          4,
+          6
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          5,
+          6
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      }
+    ],
+    "metodo": "hibrido_exacto"
+  },
+  {
+    "seed": 0,
+    "m": 3,
+    "subproblems": 30,
+    "C_inicial": 514,
+    "C_tras_subproblemas": 366,
+    "gap_tras_subproblemas": 7.65,
+    "C_final_tras_swaps": 366,
+    "gap_final": 7.65,
+    "aceptados": 7,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": 11.67,
+    "tiempo_subproblemas_s": 52.08,
+    "tiempo_pulido_s": 0.0,
+    "perm_final": [
+      4,
+      0,
+      9,
+      6,
+      7,
+      3,
+      1,
+      5,
+      8,
+      2
+    ],
+    "log": [
+      {
+        "S": [
+          0,
+          7,
+          8
+        ],
+        "cost_proposal": 494,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 494,
+        "feasible_fraction": 0.10400390625
+      },
+      {
+        "S": [
+          1,
+          4,
+          9
+        ],
+        "cost_proposal": 466,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 466,
+        "feasible_fraction": 0.13037109375
+      },
+      {
+        "S": [
+          2,
+          3,
+          4
+        ],
+        "cost_proposal": 446,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": 0.1103515625
+      },
+      {
+        "S": [
+          0,
+          7,
+          9
+        ],
+        "cost_proposal": 446,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": 0.08154296875
+      },
+      {
+        "S": [
+          0,
+          5,
+          9
+        ],
+        "cost_proposal": 446,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": 0.123046875
+      },
+      {
+        "S": [
+          4,
+          6,
+          8
+        ],
+        "cost_proposal": 446,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": 0.111328125
+      },
+      {
+        "S": [
+          2,
+          7,
+          9
+        ],
+        "cost_proposal": 446,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 446,
+        "feasible_fraction": 0.10888671875
+      },
+      {
+        "S": [
+          2,
+          5,
+          9
+        ],
+        "cost_proposal": 422,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": 0.12353515625
+      },
+      {
+        "S": [
+          2,
+          4,
+          6
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": 0.10986328125
+      },
+      {
+        "S": [
+          2,
+          4,
+          9
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": 0.11669921875
+      },
+      {
+        "S": [
+          3,
+          5,
+          6
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": 0.123046875
+      },
+      {
+        "S": [
+          1,
+          2,
+          4
+        ],
+        "cost_proposal": 422,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 422,
+        "feasible_fraction": 0.11767578125
+      },
+      {
+        "S": [
+          2,
+          4,
+          7
+        ],
+        "cost_proposal": 398,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": 0.11328125
+      },
+      {
+        "S": [
+          0,
+          1,
+          3
+        ],
+        "cost_proposal": 398,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": 0.13134765625
+      },
+      {
+        "S": [
+          0,
+          2,
+          8
+        ],
+        "cost_proposal": 378,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.1123046875
+      },
+      {
+        "S": [
+          2,
+          6,
+          9
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.126953125
+      },
+      {
+        "S": [
+          0,
+          2,
+          6
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.10498046875
+      },
+      {
+        "S": [
+          1,
+          3,
+          4
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.11962890625
+      },
+      {
+        "S": [
+          0,
+          3,
+          5
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.1171875
+      },
+      {
+        "S": [
+          0,
+          1,
+          7
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.11962890625
+      },
+      {
+        "S": [
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.10888671875
+      },
+      {
+        "S": [
+          1,
+          5,
+          6
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.1279296875
+      },
+      {
+        "S": [
+          4,
+          6,
+          9
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.12353515625
+      },
+      {
+        "S": [
+          4,
+          7,
+          8
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.11279296875
+      },
+      {
+        "S": [
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 378,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 378,
+        "feasible_fraction": 0.1181640625
+      },
+      {
+        "S": [
+          1,
+          2,
+          6
+        ],
+        "cost_proposal": 366,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.1142578125
+      },
+      {
+        "S": [
+          1,
+          2,
+          3
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.123046875
+      },
+      {
+        "S": [
+          3,
+          4,
+          5
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.11865234375
+      },
+      {
+        "S": [
+          1,
+          4,
+          6
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.12841796875
+      },
+      {
+        "S": [
+          2,
+          5,
+          6
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.1201171875
+      }
+    ],
+    "metodo": "hibrido_qaoa"
+  },
+  {
+    "seed": 0,
+    "m": 4,
+    "subproblems": 20,
+    "C_inicial": 514,
+    "C_tras_subproblemas": 368,
+    "gap_tras_subproblemas": 8.24,
+    "C_final_tras_swaps": 368,
+    "gap_final": 8.24,
+    "aceptados": 5,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": null,
+    "tiempo_subproblemas_s": 0.01,
+    "tiempo_pulido_s": 0.0,
+    "perm_final": [
+      5,
+      0,
+      4,
+      7,
+      3,
+      2,
+      9,
+      6,
+      8,
+      1
+    ],
+    "log": [
+      {
+        "S": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "cost_proposal": 470,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 470,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "cost_proposal": 444,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 444,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          4,
+          7,
+          8
+        ],
+        "cost_proposal": 410,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "cost_proposal": 370,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 370,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 370,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 370,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          4,
+          5,
+          8
+        ],
+        "cost_proposal": 370,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 370,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          8,
+          9
+        ],
+        "cost_proposal": 370,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 370,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          6,
+          7,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          4,
+          5,
+          9
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          2,
+          9
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          6,
+          7,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          5,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          3,
+          9
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          5,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          7,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": null
+      }
+    ],
+    "metodo": "hibrido_exacto"
+  },
+  {
+    "seed": 0,
+    "m": 4,
+    "subproblems": 20,
+    "C_inicial": 514,
+    "C_tras_subproblemas": 368,
+    "gap_tras_subproblemas": 8.24,
+    "C_final_tras_swaps": 368,
+    "gap_final": 8.24,
+    "aceptados": 5,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": 3.23,
+    "tiempo_subproblemas_s": 228.26,
+    "tiempo_pulido_s": 0.001,
+    "perm_final": [
+      5,
+      0,
+      4,
+      7,
+      3,
+      2,
+      9,
+      6,
+      8,
+      1
+    ],
+    "log": [
+      {
+        "S": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "cost_proposal": 470,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 470,
+        "feasible_fraction": 0.037109375
+      },
+      {
+        "S": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "cost_proposal": 444,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 444,
+        "feasible_fraction": 0.03173828125
+      },
+      {
+        "S": [
+          2,
+          4,
+          7,
+          8
+        ],
+        "cost_proposal": 410,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": 0.025390625
+      },
+      {
+        "S": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "cost_proposal": 370,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 370,
+        "feasible_fraction": 0.0322265625
+      },
+      {
+        "S": [
+          0,
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 374,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 370,
+        "feasible_fraction": 0.02734375
+      },
+      {
+        "S": [
+          1,
+          4,
+          5,
+          8
+        ],
+        "cost_proposal": 370,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 370,
+        "feasible_fraction": 0.03369140625
+      },
+      {
+        "S": [
+          1,
+          3,
+          8,
+          9
+        ],
+        "cost_proposal": 370,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 370,
+        "feasible_fraction": 0.0341796875
+      },
+      {
+        "S": [
+          0,
+          6,
+          7,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.03759765625
+      },
+      {
+        "S": [
+          1,
+          4,
+          5,
+          9
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.03857421875
+      },
+      {
+        "S": [
+          0,
+          1,
+          2,
+          9
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.03173828125
+      },
+      {
+        "S": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.0244140625
+      },
+      {
+        "S": [
+          1,
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.03173828125
+      },
+      {
+        "S": [
+          4,
+          6,
+          7,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.0390625
+      },
+      {
+        "S": [
+          1,
+          2,
+          5,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.03369140625
+      },
+      {
+        "S": [
+          0,
+          2,
+          3,
+          9
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.03076171875
+      },
+      {
+        "S": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.037109375
+      },
+      {
+        "S": [
+          3,
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.033203125
+      },
+      {
+        "S": [
+          0,
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.02734375
+      },
+      {
+        "S": [
+          0,
+          2,
+          5,
+          8
+        ],
+        "cost_proposal": 368,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.025390625
+      },
+      {
+        "S": [
+          0,
+          1,
+          7,
+          8
+        ],
+        "cost_proposal": 370,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 368,
+        "feasible_fraction": 0.03271484375
+      }
+    ],
+    "metodo": "hibrido_qaoa"
+  },
+  {
+    "metodo": "clasico_swaps",
+    "seed": 1,
+    "m": "",
+    "subproblems": "",
+    "C_inicial": 430,
+    "C_tras_subproblemas": "",
+    "gap_tras_subproblemas": "",
+    "C_final_tras_swaps": 372,
+    "gap_final": 9.41,
+    "tiempo_subproblemas_s": "",
+    "tiempo_pulido_s": 0.004
+  },
+  {
+    "seed": 1,
+    "m": 3,
+    "subproblems": 30,
+    "C_inicial": 430,
+    "C_tras_subproblemas": 376,
+    "gap_tras_subproblemas": 10.59,
+    "C_final_tras_swaps": 376,
+    "gap_final": 10.59,
+    "aceptados": 3,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": null,
+    "tiempo_subproblemas_s": 0.0,
+    "tiempo_pulido_s": 0.001,
+    "perm_final": [
+      4,
+      2,
+      7,
+      8,
+      0,
+      1,
+      5,
+      9,
+      6,
+      3
+    ],
+    "log": [
+      {
+        "S": [
+          3,
+          7,
+          8
+        ],
+        "cost_proposal": 430,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 430,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          4
+        ],
+        "cost_proposal": 418,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          6,
+          7
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          4,
+          8
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          6,
+          7
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          3,
+          5
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          6,
+          8
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          4,
+          5
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          8
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          3,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          8,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          6,
+          8
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          6,
+          7
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          6
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          8,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          5,
+          7
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          6,
+          8
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          4,
+          6
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          7
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          7,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          5
+        ],
+        "cost_proposal": 376,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          8,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          3,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          3
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          3,
+          6
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      }
+    ],
+    "metodo": "hibrido_exacto"
+  },
+  {
+    "seed": 1,
+    "m": 3,
+    "subproblems": 30,
+    "C_inicial": 430,
+    "C_tras_subproblemas": 376,
+    "gap_tras_subproblemas": 10.59,
+    "C_final_tras_swaps": 376,
+    "gap_final": 10.59,
+    "aceptados": 3,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": 11.42,
+    "tiempo_subproblemas_s": 49.59,
+    "tiempo_pulido_s": 0.001,
+    "perm_final": [
+      4,
+      2,
+      7,
+      8,
+      0,
+      1,
+      5,
+      9,
+      6,
+      3
+    ],
+    "log": [
+      {
+        "S": [
+          3,
+          7,
+          8
+        ],
+        "cost_proposal": 430,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 430,
+        "feasible_fraction": 0.1025390625
+      },
+      {
+        "S": [
+          1,
+          3,
+          4
+        ],
+        "cost_proposal": 418,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": 0.119140625
+      },
+      {
+        "S": [
+          3,
+          6,
+          7
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": 0.10986328125
+      },
+      {
+        "S": [
+          0,
+          4,
+          8
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": 0.109375
+      },
+      {
+        "S": [
+          4,
+          6,
+          7
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": 0.12548828125
+      },
+      {
+        "S": [
+          2,
+          3,
+          5
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": 0.123046875
+      },
+      {
+        "S": [
+          2,
+          6,
+          8
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": 0.11279296875
+      },
+      {
+        "S": [
+          2,
+          4,
+          5
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": 0.10986328125
+      },
+      {
+        "S": [
+          0,
+          1,
+          8
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 418,
+        "feasible_fraction": 0.10791015625
+      },
+      {
+        "S": [
+          0,
+          3,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.10693359375
+      },
+      {
+        "S": [
+          1,
+          8,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.10595703125
+      },
+      {
+        "S": [
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.10693359375
+      },
+      {
+        "S": [
+          1,
+          6,
+          8
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.1181640625
+      },
+      {
+        "S": [
+          2,
+          6,
+          7
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.12158203125
+      },
+      {
+        "S": [
+          1,
+          3,
+          6
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.12255859375
+      },
+      {
+        "S": [
+          2,
+          8,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.109375
+      },
+      {
+        "S": [
+          0,
+          5,
+          7
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.1240234375
+      },
+      {
+        "S": [
+          3,
+          6,
+          8
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.0810546875
+      },
+      {
+        "S": [
+          0,
+          1,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.13134765625
+      },
+      {
+        "S": [
+          0,
+          4,
+          6
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.1064453125
+      },
+      {
+        "S": [
+          0,
+          1,
+          7
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.1123046875
+      },
+      {
+        "S": [
+          0,
+          7,
+          9
+        ],
+        "cost_proposal": 406,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 406,
+        "feasible_fraction": 0.11962890625
+      },
+      {
+        "S": [
+          1,
+          3,
+          5
+        ],
+        "cost_proposal": 376,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.125
+      },
+      {
+        "S": [
+          0,
+          8,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.10888671875
+      },
+      {
+        "S": [
+          0,
+          3,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.126953125
+      },
+      {
+        "S": [
+          0,
+          2,
+          3
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.1201171875
+      },
+      {
+        "S": [
+          5,
+          6,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.10888671875
+      },
+      {
+        "S": [
+          0,
+          2,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.12646484375
+      },
+      {
+        "S": [
+          1,
+          3,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.1142578125
+      },
+      {
+        "S": [
+          0,
+          3,
+          6
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.109375
+      }
+    ],
+    "metodo": "hibrido_qaoa"
+  },
+  {
+    "seed": 1,
+    "m": 4,
+    "subproblems": 20,
+    "C_inicial": 430,
+    "C_tras_subproblemas": 376,
+    "gap_tras_subproblemas": 10.59,
+    "C_final_tras_swaps": 376,
+    "gap_final": 10.59,
+    "aceptados": 3,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": null,
+    "tiempo_subproblemas_s": 0.01,
+    "tiempo_pulido_s": 0.001,
+    "perm_final": [
+      4,
+      2,
+      7,
+      8,
+      0,
+      1,
+      5,
+      9,
+      6,
+      3
+    ],
+    "log": [
+      {
+        "S": [
+          3,
+          6,
+          7,
+          9
+        ],
+        "cost_proposal": 430,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 430,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          5,
+          9
+        ],
+        "cost_proposal": 410,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "cost_proposal": 398,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          4,
+          7,
+          8
+        ],
+        "cost_proposal": 398,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "cost_proposal": 398,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          5,
+          7,
+          8
+        ],
+        "cost_proposal": 398,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "cost_proposal": 376,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          3,
+          8,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          6,
+          7,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          3,
+          4,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          3,
+          6,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          5,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          3,
+          7
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          2,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          5,
+          7,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          7,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": null
+      }
+    ],
+    "metodo": "hibrido_exacto"
+  },
+  {
+    "seed": 1,
+    "m": 4,
+    "subproblems": 20,
+    "C_inicial": 430,
+    "C_tras_subproblemas": 376,
+    "gap_tras_subproblemas": 10.59,
+    "C_final_tras_swaps": 376,
+    "gap_final": 10.59,
+    "aceptados": 3,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": 3.16,
+    "tiempo_subproblemas_s": 234.05,
+    "tiempo_pulido_s": 0.001,
+    "perm_final": [
+      4,
+      2,
+      7,
+      8,
+      0,
+      1,
+      5,
+      9,
+      6,
+      3
+    ],
+    "log": [
+      {
+        "S": [
+          3,
+          6,
+          7,
+          9
+        ],
+        "cost_proposal": 430,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 430,
+        "feasible_fraction": 0.04248046875
+      },
+      {
+        "S": [
+          1,
+          3,
+          5,
+          9
+        ],
+        "cost_proposal": 410,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": 0.02978515625
+      },
+      {
+        "S": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "cost_proposal": 398,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": 0.03466796875
+      },
+      {
+        "S": [
+          1,
+          4,
+          7,
+          8
+        ],
+        "cost_proposal": 398,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": 0.03125
+      },
+      {
+        "S": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "cost_proposal": 398,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": 0.02685546875
+      },
+      {
+        "S": [
+          1,
+          5,
+          7,
+          8
+        ],
+        "cost_proposal": 398,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 398,
+        "feasible_fraction": 0.0361328125
+      },
+      {
+        "S": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "cost_proposal": 376,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.0263671875
+      },
+      {
+        "S": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.03076171875
+      },
+      {
+        "S": [
+          0,
+          3,
+          8,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.03271484375
+      },
+      {
+        "S": [
+          2,
+          6,
+          7,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.021484375
+      },
+      {
+        "S": [
+          0,
+          3,
+          4,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.0302734375
+      },
+      {
+        "S": [
+          0,
+          3,
+          6,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.0283203125
+      },
+      {
+        "S": [
+          0,
+          1,
+          5,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.0302734375
+      },
+      {
+        "S": [
+          1,
+          2,
+          3,
+          7
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.0341796875
+      },
+      {
+        "S": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.03173828125
+      },
+      {
+        "S": [
+          2,
+          3,
+          6,
+          9
+        ],
+        "cost_proposal": 418,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.01904296875
+      },
+      {
+        "S": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.0439453125
+      },
+      {
+        "S": [
+          0,
+          1,
+          2,
+          8
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.03271484375
+      },
+      {
+        "S": [
+          0,
+          5,
+          7,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.04296875
+      },
+      {
+        "S": [
+          1,
+          2,
+          7,
+          9
+        ],
+        "cost_proposal": 376,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 376,
+        "feasible_fraction": 0.02587890625
+      }
+    ],
+    "metodo": "hibrido_qaoa"
+  },
+  {
+    "metodo": "clasico_swaps",
+    "seed": 2,
+    "m": "",
+    "subproblems": "",
+    "C_inicial": 556,
+    "C_tras_subproblemas": "",
+    "gap_tras_subproblemas": "",
+    "C_final_tras_swaps": 370,
+    "gap_final": 8.82,
+    "tiempo_subproblemas_s": "",
+    "tiempo_pulido_s": 0.004
+  },
+  {
+    "seed": 2,
+    "m": 3,
+    "subproblems": 30,
+    "C_inicial": 556,
+    "C_tras_subproblemas": 396,
+    "gap_tras_subproblemas": 16.47,
+    "C_final_tras_swaps": 364,
+    "gap_final": 7.06,
+    "aceptados": 5,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 4,
+    "pct_factibles_medio": null,
+    "tiempo_subproblemas_s": 0.0,
+    "tiempo_pulido_s": 0.003,
+    "perm_final": [
+      3,
+      0,
+      2,
+      7,
+      8,
+      9,
+      5,
+      6,
+      1,
+      4
+    ],
+    "log": [
+      {
+        "S": [
+          1,
+          4,
+          5
+        ],
+        "cost_proposal": 556,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 556,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          5,
+          8
+        ],
+        "cost_proposal": 556,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 556,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          7,
+          8
+        ],
+        "cost_proposal": 488,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 488,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          5,
+          9
+        ],
+        "cost_proposal": 488,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 488,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          5,
+          6
+        ],
+        "cost_proposal": 470,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 470,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          3,
+          6
+        ],
+        "cost_proposal": 414,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 414,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          6
+        ],
+        "cost_proposal": 414,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 414,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          5,
+          6
+        ],
+        "cost_proposal": 414,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 414,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          7,
+          8,
+          9
+        ],
+        "cost_proposal": 410,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          4,
+          7
+        ],
+        "cost_proposal": 410,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          5,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          6
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          7,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          5,
+          7,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          7,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          7
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          1,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          4,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          7,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          3,
+          6
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          3,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          5,
+          7
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          5,
+          7
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          3,
+          5,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          5
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          6,
+          7,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": null
+      }
+    ],
+    "metodo": "hibrido_exacto"
+  },
+  {
+    "seed": 2,
+    "m": 3,
+    "subproblems": 30,
+    "C_inicial": 556,
+    "C_tras_subproblemas": 396,
+    "gap_tras_subproblemas": 16.47,
+    "C_final_tras_swaps": 364,
+    "gap_final": 7.06,
+    "aceptados": 5,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 4,
+    "pct_factibles_medio": 11.56,
+    "tiempo_subproblemas_s": 46.97,
+    "tiempo_pulido_s": 0.003,
+    "perm_final": [
+      3,
+      0,
+      2,
+      7,
+      8,
+      9,
+      5,
+      6,
+      1,
+      4
+    ],
+    "log": [
+      {
+        "S": [
+          1,
+          4,
+          5
+        ],
+        "cost_proposal": 556,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 556,
+        "feasible_fraction": 0.1083984375
+      },
+      {
+        "S": [
+          1,
+          5,
+          8
+        ],
+        "cost_proposal": 556,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 556,
+        "feasible_fraction": 0.1181640625
+      },
+      {
+        "S": [
+          3,
+          7,
+          8
+        ],
+        "cost_proposal": 488,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 488,
+        "feasible_fraction": 0.1171875
+      },
+      {
+        "S": [
+          4,
+          5,
+          9
+        ],
+        "cost_proposal": 488,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 488,
+        "feasible_fraction": 0.11328125
+      },
+      {
+        "S": [
+          0,
+          5,
+          6
+        ],
+        "cost_proposal": 470,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 470,
+        "feasible_fraction": 0.12646484375
+      },
+      {
+        "S": [
+          2,
+          3,
+          6
+        ],
+        "cost_proposal": 414,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 414,
+        "feasible_fraction": 0.119140625
+      },
+      {
+        "S": [
+          0,
+          1,
+          6
+        ],
+        "cost_proposal": 414,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 414,
+        "feasible_fraction": 0.12744140625
+      },
+      {
+        "S": [
+          4,
+          5,
+          6
+        ],
+        "cost_proposal": 414,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 414,
+        "feasible_fraction": 0.09521484375
+      },
+      {
+        "S": [
+          7,
+          8,
+          9
+        ],
+        "cost_proposal": 410,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": 0.1201171875
+      },
+      {
+        "S": [
+          1,
+          4,
+          7
+        ],
+        "cost_proposal": 410,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": 0.11767578125
+      },
+      {
+        "S": [
+          0,
+          2,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.10205078125
+      },
+      {
+        "S": [
+          1,
+          3,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.12353515625
+      },
+      {
+        "S": [
+          1,
+          2,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.1064453125
+      },
+      {
+        "S": [
+          3,
+          5,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.123046875
+      },
+      {
+        "S": [
+          1,
+          3,
+          6
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.12109375
+      },
+      {
+        "S": [
+          2,
+          7,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.1201171875
+      },
+      {
+        "S": [
+          5,
+          7,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.11962890625
+      },
+      {
+        "S": [
+          2,
+          7,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.1181640625
+      },
+      {
+        "S": [
+          1,
+          2,
+          7
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.11962890625
+      },
+      {
+        "S": [
+          0,
+          1,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.10009765625
+      },
+      {
+        "S": [
+          1,
+          4,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.11962890625
+      },
+      {
+        "S": [
+          3,
+          7,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.12548828125
+      },
+      {
+        "S": [
+          0,
+          3,
+          6
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.10693359375
+      },
+      {
+        "S": [
+          2,
+          3,
+          9
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.1103515625
+      },
+      {
+        "S": [
+          2,
+          5,
+          7
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.11572265625
+      },
+      {
+        "S": [
+          0,
+          5,
+          7
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.11279296875
+      },
+      {
+        "S": [
+          1,
+          3,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.10693359375
+      },
+      {
+        "S": [
+          3,
+          5,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.12158203125
+      },
+      {
+        "S": [
+          0,
+          2,
+          5
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.1171875
+      },
+      {
+        "S": [
+          6,
+          7,
+          8
+        ],
+        "cost_proposal": 396,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 396,
+        "feasible_fraction": 0.11572265625
+      }
+    ],
+    "metodo": "hibrido_qaoa"
+  },
+  {
+    "seed": 2,
+    "m": 4,
+    "subproblems": 20,
+    "C_inicial": 556,
+    "C_tras_subproblemas": 366,
+    "gap_tras_subproblemas": 7.65,
+    "C_final_tras_swaps": 366,
+    "gap_final": 7.65,
+    "aceptados": 4,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": null,
+    "tiempo_subproblemas_s": 0.01,
+    "tiempo_pulido_s": 0.001,
+    "perm_final": [
+      6,
+      2,
+      7,
+      8,
+      9,
+      5,
+      0,
+      4,
+      3,
+      1
+    ],
+    "log": [
+      {
+        "S": [
+          0,
+          1,
+          3,
+          8
+        ],
+        "cost_proposal": 440,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 440,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "cost_proposal": 410,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          8,
+          9
+        ],
+        "cost_proposal": 382,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 382,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          3,
+          5,
+          9
+        ],
+        "cost_proposal": 382,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 382,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          6,
+          7,
+          9
+        ],
+        "cost_proposal": 382,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 382,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          3,
+          7,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          5,
+          7,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          3,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          4,
+          5,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          5,
+          8,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          2,
+          5,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          0,
+          6,
+          7,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      },
+      {
+        "S": [
+          1,
+          3,
+          4,
+          8
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": null
+      }
+    ],
+    "metodo": "hibrido_exacto"
+  },
+  {
+    "seed": 2,
+    "m": 4,
+    "subproblems": 20,
+    "C_inicial": 556,
+    "C_tras_subproblemas": 366,
+    "gap_tras_subproblemas": 7.65,
+    "C_final_tras_swaps": 366,
+    "gap_final": 7.65,
+    "aceptados": 4,
+    "reparados": 0,
+    "reparados_aceptados": 0,
+    "swaps_pulido": 0,
+    "pct_factibles_medio": 3.31,
+    "tiempo_subproblemas_s": 203.38,
+    "tiempo_pulido_s": 0.001,
+    "perm_final": [
+      6,
+      2,
+      7,
+      8,
+      9,
+      5,
+      0,
+      4,
+      3,
+      1
+    ],
+    "log": [
+      {
+        "S": [
+          0,
+          1,
+          3,
+          8
+        ],
+        "cost_proposal": 440,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 440,
+        "feasible_fraction": 0.03173828125
+      },
+      {
+        "S": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "cost_proposal": 410,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 410,
+        "feasible_fraction": 0.02978515625
+      },
+      {
+        "S": [
+          0,
+          2,
+          8,
+          9
+        ],
+        "cost_proposal": 382,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 382,
+        "feasible_fraction": 0.03076171875
+      },
+      {
+        "S": [
+          2,
+          3,
+          5,
+          9
+        ],
+        "cost_proposal": 382,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 382,
+        "feasible_fraction": 0.03662109375
+      },
+      {
+        "S": [
+          4,
+          6,
+          7,
+          9
+        ],
+        "cost_proposal": 382,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 382,
+        "feasible_fraction": 0.03076171875
+      },
+      {
+        "S": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": true,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.02490234375
+      },
+      {
+        "S": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.0322265625
+      },
+      {
+        "S": [
+          2,
+          3,
+          7,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.04931640625
+      },
+      {
+        "S": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.01806640625
+      },
+      {
+        "S": [
+          0,
+          5,
+          7,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.029296875
+      },
+      {
+        "S": [
+          1,
+          2,
+          3,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.0419921875
+      },
+      {
+        "S": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.03369140625
+      },
+      {
+        "S": [
+          0,
+          4,
+          5,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.03759765625
+      },
+      {
+        "S": [
+          4,
+          5,
+          8,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.04150390625
+      },
+      {
+        "S": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.0322265625
+      },
+      {
+        "S": [
+          0,
+          2,
+          5,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.02734375
+      },
+      {
+        "S": [
+          0,
+          6,
+          7,
+          9
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.0361328125
+      },
+      {
+        "S": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.033203125
+      },
+      {
+        "S": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "cost_proposal": 382,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.0361328125
+      },
+      {
+        "S": [
+          1,
+          3,
+          4,
+          8
+        ],
+        "cost_proposal": 366,
+        "accepted": false,
+        "repaired": false,
+        "cost_after": 366,
+        "feasible_fraction": 0.029296875
+      }
+    ],
+    "metodo": "hibrido_qaoa"
+  }
+]

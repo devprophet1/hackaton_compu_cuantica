@@ -1,0 +1,10 @@
+metodo,seed,iteraciones,C_inicial,C_primer_descenso,C_final,gap_final,iter_mejor,subproblemas_unicos,mejoras_por_subproblema,tiempo_s
+ils_swaps,0,60,514,362,350,2.94,60,0,0,0.34
+ils_hibrido_exacto,0,60,514,362,350,2.94,60,103,0,0.42
+ils_hibrido_qaoa,0,60,514,362,350,2.94,60,103,0,471.05
+ils_swaps,1,60,430,372,362,6.47,36,0,0,0.3
+ils_hibrido_exacto,1,60,430,372,362,6.47,36,109,0,0.34
+ils_hibrido_qaoa,1,60,430,372,362,6.47,36,109,0,474.06
+ils_swaps,2,60,556,370,350,2.94,26,0,0,0.23
+ils_hibrido_exacto,2,60,556,370,350,2.94,26,107,0,0.25
+ils_hibrido_qaoa,2,60,556,370,350,2.94,26,107,0,503.43
